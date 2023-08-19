@@ -28,9 +28,9 @@ function copyPassword(id) {
     window.getSelection().removeAllRanges();
 }
 
-function ani() {
-    document.getElementById('copyTxt').classList.add('anim');
-    sleep(1000).then(() => { document.getElementById('copyTxt').classList.remove('anim'); });
+function copyAnim() {
+    document.getElementById('copyTxt').classList.add('copyAnimation');
+    sleep(1000).then(() => { document.getElementById('copyTxt').classList.remove('copyAnimation'); });
 }
 
 

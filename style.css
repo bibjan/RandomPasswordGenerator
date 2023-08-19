@@ -83,7 +83,7 @@ svg {
     top: 17%;
 }
 
-.anim {
+.copyAnimation {
     animation-name: copyText;
     animation-duration: 1s;
 }
