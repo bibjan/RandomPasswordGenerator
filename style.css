@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: #FEE715;
+    background-color: #101820;
+    margin: 0;
+}
+
+h1 {
+    font-size: 450%;
+    text-align: center;
+    margin: 0;
+    padding: 3%;
+}
+
+h2 {
+    font-size: 340%;
+    text-align: center;
+    margin-top: 5%;
+    padding: 3%;
+}
+
+button:not(hover) {
+    background-color: #FEE715;
+    color: #17232f;
+    border: none;
+    border-radius: 15px;
+    padding: 1.5%;
+    margin-top: 2.7%;
+    font-size: 180%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition-duration: .2s;
+    margin: .5%;
+}
+
+button:hover {
+    background-color: #101820;
+    color: #FEE715;
+    border: 2px solid #FEE715;
+    transition-duration: .2s;
+}
+
+button:active {
+    background-color: #FEE715;
+    color: #101820;
+    border: 2px solid #101820;
+    transition-duration: .2s;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+svg {
+    position: fixed;
+    bottom: 0;
+}
