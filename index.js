@@ -1,8 +1,12 @@
 let passwordEl = document.getElementById("password")
+
 let chars = "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 let passwordLength = 11;
 let password = "";
 
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
 
 function generatePassword() {
     password = "";
@@ -22,6 +26,11 @@ function copyPassword(id) {
     window.getSelection().addRange(r);
     document.execCommand('copy');
     window.getSelection().removeAllRanges();
+}
+
+function ani() {
+    document.getElementById('copyTxt').classList.add('anim');
+    sleep(1000).then(() => { document.getElementById('copyTxt').classList.remove('anim'); });
 }
 
 
