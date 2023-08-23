@@ -88,5 +88,22 @@ svg {
     animation-duration: 1s;
 }
 
+.contact {
+    font-size: 120%;
+    position: absolute;
+    left: 47%;
+    top: 96.5%;
+    z-index: 999;
+    text-decoration: none;
+    color: #c5c5c5;
+}
+
+.back-btn {
+    position: absolute;
+    left: 2%;
+    top: 3%;
+    border-radius: 50%;
+    font-size: xxx-large;
+}
 
 
