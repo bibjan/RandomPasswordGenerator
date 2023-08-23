@@ -51,17 +51,15 @@ button:not(hover) {
 }
 
 button:hover {
-    background-color: #101820;
-    color: #FEE715;
-    border: 2px solid #FEE715;
+    color: #233644;
+    background-color: #b9a919;
     transition-duration: .3s;
 }
 
 button:active {
     background-color: #FEE715;
     color: #101820;
-    border: 2px solid #101820;
-    transition-duration: .1s;
+    transition-duration: .2s;
 }
 
 .container {
@@ -93,7 +91,7 @@ svg {
     position: absolute;
     left: 47%;
     top: 96.5%;
-    z-index: 999;
+    z-index: 99;
     text-decoration: none;
     color: #c5c5c5;
 }
