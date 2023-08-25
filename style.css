@@ -100,8 +100,46 @@ svg {
     position: absolute;
     left: 2%;
     top: 3%;
-    border-radius: 50%;
+    border-radius: 15px;
     font-size: xxx-large;
 }
 
+.container-form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 7%;
+}
+
+input:not(hover) {
+    background-color: #17232f;
+    border: none;
+    border-bottom: #203041 solid 4px;
+    color: white;
+    padding-top: 9%;
+    padding-right: 9%;
+    margin-bottom: 5%;
+    width: 100%;
+    font-size: 150%;
+    font-family: 'Ubuntu', sans-serif;
+    transition-duration: .3s;
+}
+
+input::placeholder {
+    color: #c5c5c5;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 150%;
+}
+
+input:hover {
+    background-color: #182734;
+    border-bottom: #1d2b3b solid 4px;
+    transition-duration: .3s;
+}
+
+input:focus {
+    border-bottom: #FEE715 solid 4px;
+    transition-duration: .3s;
+    outline: none;
+}
 
